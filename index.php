@@ -81,7 +81,8 @@
     <p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </div>
 
-  <div class="w-full flex flex-col md:flex-row box-shadow content">
+  <!-- Single places starts -->
+  <div class="w-full flex flex-col md:flex-row mb-4 box-shadow content">
     <div class="w-full h-auto md:w-1/6 bg-cover bg-no-repeat img" style="background-image:url('assets/imgs/central.jpg')">
       <img src="assets/imgs/west.jpg" class="invisible" alt="" srcset="">
     </div>
@@ -95,6 +96,24 @@
       <a href="" class="kbtn transparent icon right  block w-32 text-gray-800">View Offers <i class="fas fa-arrow-right"></i></a>
     </div>
   </div>
+  <!-- Single places starts -->
+
+  <!-- Single places starts -->
+  <div class="w-full flex flex-col md:flex-row mb-4 box-shadow content">
+    <div class="w-full h-auto md:w-1/6 bg-cover bg-no-repeat img" style="background-image:url('assets/imgs/central.jpg')">
+      <img src="assets/imgs/west.jpg" class="invisible" alt="" srcset="">
+    </div>
+    <div class="w-full h-auto md:w-5/6 p-5">
+      <h3 class="text-lg mb-2">Kintamani Indonesian Restaurant</h3>
+      <p class="text-gray-500 text-sm mb-3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <a href="" class="kbtn transparent icon right  block w-32 text-gray-800">View Offers <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </div>
+  <!-- Single places starts -->
 
 </section>
 
