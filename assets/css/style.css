@@ -1,0 +1,71 @@
+@import url("navbar.css");
+
+/*Global Style*/
+body{font-family:'Poppins',sans-serif}
+:root{--primary:#2ca793}
+
+/*Helper Style*/
+.box-shadow{box-shadow:2px 2px 12px rgba(0,0,0,0.1)}
+    /*Button*/
+    .kbtn{border-radius:45px;padding:8px 20px;font-size:14px;font-weight:500; }
+    .kbtn.border{border:2px solid var(--primary)!important;color:var(--primary);background:#fff}
+    .kbtn.solid{border:2px solid var(--primary)!important;color:#fff;background:var(--primary)}
+    .kbtn.transparent {background: transparent; color:var(--primary);}
+    .kbtn.transparent.icon{padding:0;line-height:30px;min-width:100px}
+    .kbtn.transparent.icon i{float:right;position:relative;height:30px;width:30px;border-radius:50%;border:1px solid #cacaca}
+    .kbtn.transparent.icon i:before{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}
+    .kbtn.icon.left i{margin-right:5px}
+    .kbtn.icon.right i{margin-left:5px}
+
+    /*Badges*/
+    .badge{border-radius:2rem;font-size:14px;padding:.35em .8em;font-weight:500}
+    .badge-pink{color:#fff;background-color:#ff8282}
+    .navbar{padding:.5rem .75rem}
+
+    /*Section title*/
+    .section-title {margin-bottom:30px;}
+    .section-title .captiontitle {font-weight: 700;color: #b7b7b7;font-size: 14px;letter-spacing: 1px;text-transform: uppercase;margin-bottom: 18px;}
+    .section-title .title {color: #404040;font-size: 40px;line-height: 60px;font-weight: 400;}
+    .section-title span {color: var(--primary);}
+
+    @media only screen and (max-width:767px){
+        .section-title .captiontitle {margin-bottom: 11px; }
+        .section-title .title {font-size: 30px;line-height: 47px;}
+        .container {       width: 90%  }
+    }
+
+/*Header & Menu Style*/
+
+
+a.navbar-brand{padding:0}
+a.navbar-brand img{height:70px}
+li.nav-item{margin:0 17px;position:relative}
+li.nav-item.active:after,li.nav-item:hover:after{width:100%;height:auto;top:60px;content:'';border-bottom:3.5px solid #2ca793;position:absolute}
+.navbar-light .navbar-nav .nav-link{color:#5e5e5e;font-weight:500;font-size:14px}
+.navbar .account{display:flex;width:225px;justify-content:space-between}
+@media only screen and (max-width:767px){
+    li.nav-item.active:after,li.nav-item:hover:after{border:0}
+}
+
+/*Hero Section*/
+#heroSec {background: url(../imgs/kintaBg.jpeg);}
+#heroSec .herocaption {background:rgba(0,0,0,0.48);padding:10px 30px;border-radius:14px}
+#heroSec .herocaption h3, .herocaption h4 {color:#fff;font-weight:400}
+#heroSec .herocaption h3 {font-size:23px;}
+#heroSec .herocaption h4 {font-size:15px;}
+#heroSec .hero {height: 98vh;}
+#heroSec .hero .kbtn {display: inline-block;margin-top: 10px;}
+
+@media only screen and  (max-width:767px){
+    #heroSec .herocaption  {width: 82%;}
+    
+}
+
+
+#regionSec .region-wrap {}
+
+#regionSec .region-wrap .img.central{background-image: url('../imgs/central.jpg');}
+#regionSec .region-wrap .img.east{background-image: url('../imgs/east.jpg');}
+#regionSec .region-wrap .img.west{background-image: url('../imgs/west.jpg');}
+#regionSec .region-wrap .img.north{background-image: url('../imgs/north.jpg');}
+
