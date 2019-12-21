@@ -83,11 +83,19 @@
 
   <!-- Single places starts -->
   <div class="w-full flex flex-col md:flex-row mb-4 box-shadow content">
-    <div class="w-full h-auto md:w-1/6 bg-cover bg-no-repeat img" style="background-image:url('assets/imgs/central.jpg')">
+    <div class="w-full h-auto md:w-1/6 bg-cover bg-center bg-no-repeat img" style="background-image:url('assets/imgs/restaurant/kinta.jpg')">
       <img src="assets/imgs/west.jpg" class="invisible" alt="" srcset="">
     </div>
     <div class="w-full h-auto md:w-5/6 p-5">
-      <h3 class="text-lg mb-2">Kintamani Indonesian Restaurant</h3>
+      <h3 class="text-lg mb-1">Kintamani Indonesian Restaurant</h3>
+      <div class="flex mb-1 rest_info">
+        <!-- Address -->
+        <p class="text-gray-700 text-xs mr-3"><i class="far fa-map block md:inline mr-1 text-teal-500"></i><span>405 Havlock Road</span></p>
+        <!-- Category -->
+        <p class="text-gray-700 text-xs mr-3"><i class="far fa-map block md:inline mr-1 text-teal-500"></i><span>Fusion</span></p>
+        <!-- Tag -->
+        <p class="text-gray-700 text-xs mr-3"><i class="fas fa-tags block md:inline mr-1 text-teal-500"></i><span>Halal Certified</span>, <span>Deals Available</span></p>
+      </div>
       <p class="text-gray-500 text-sm mb-3">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -100,11 +108,69 @@
 
   <!-- Single places starts -->
   <div class="w-full flex flex-col md:flex-row mb-4 box-shadow content">
-    <div class="w-full h-auto md:w-1/6 bg-cover bg-no-repeat img" style="background-image:url('assets/imgs/central.jpg')">
+    <div class="w-full h-auto md:w-1/6 bg-cover bg-no-repeat bg-center img" style="background-image:url('assets/imgs/restaurant/hannas.jpg')">
       <img src="assets/imgs/west.jpg" class="invisible" alt="" srcset="">
     </div>
     <div class="w-full h-auto md:w-5/6 p-5">
-      <h3 class="text-lg mb-2">Kintamani Indonesian Restaurant</h3>
+      <h3 class="text-lg mb-1">Hanna's Fusion & Japnese Restaurant</h3>
+      <div class="flex mb-1 rest_info">
+        <!-- Address -->
+        <p class="text-gray-700 text-xs mr-3"><i class="far fa-map block md:inline mr-1 text-teal-500"></i><span>405 Havlock Road</span></p>
+        <!-- Category -->
+        <p class="text-gray-700 text-xs mr-3"><i class="far fa-map block md:inline mr-1 text-teal-500"></i><span>Fusion</span></p>
+        <!-- Tag -->
+        <p class="text-gray-700 text-xs mr-3"><i class="fas fa-tags block md:inline mr-1 text-teal-500"></i><span>Halal Certified</span>, <span>Deals Available</span></p>
+      </div>
+      <p class="text-gray-500 text-sm mb-3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <a href="" class="kbtn transparent icon right  block w-32 text-gray-800">View Offers <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </div>
+  <!-- Single places starts -->
+
+  <!-- Single places starts -->
+  <div class="w-full flex flex-col md:flex-row mb-4 box-shadow content">
+    <div class="w-full h-auto md:w-1/6 bg-cover bg-no-repeat bg-center img" style="background-image:url('assets/imgs/restaurant/yolo.jpg')">
+      <img src="assets/imgs/west.jpg" class="invisible" alt="" srcset="">
+    </div>
+    <div class="w-full h-auto md:w-5/6 p-5">
+      <h3 class="text-lg mb-1">YOLO</h3>
+      <div class="flex mb-1 rest_info">
+        <!-- Address -->
+        <p class="text-gray-700 text-xs mr-3"><i class="far fa-map block md:inline mr-1 text-teal-500"></i><span>405 Havlock Road</span></p>
+        <!-- Category -->
+        <p class="text-gray-700 text-xs mr-3"><i class="far fa-map block md:inline mr-1 text-teal-500"></i><span>Fusion</span></p>
+        <!-- Tag -->
+        <p class="text-gray-700 text-xs mr-3"><i class="fas fa-tags block md:inline mr-1 text-teal-500"></i><span>Halal Certified</span>, <span>Deals Available</span></p>
+      </div>
+      <p class="text-gray-500 text-sm mb-3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <a href="" class="kbtn transparent icon right  block w-32 text-gray-800">View Offers <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </div>
+  <!-- Single places starts -->
+
+  <!-- Single places starts -->
+  <div class="w-full flex flex-col md:flex-row mb-4 box-shadow content">
+    <div class="w-full h-auto md:w-1/6 bg-cover bg-no-repeat bg-center img" style="background-image:url('assets/imgs/restaurant/gogo.jpg')">
+      <img src="assets/imgs/west.jpg" class="invisible" alt="" srcset="">
+    </div>
+    <div class="w-full h-auto md:w-5/6 p-5">
+      <h3 class="text-lg mb-1">GoGo Frank (Takashimaya)</h3>
+      <div class="flex mb-1 rest_info">
+        <!-- Address -->
+        <p class="text-gray-700 text-xs mr-3"><i class="far fa-map block md:inline mr-1 text-teal-500"></i><span>405 Havlock Road</span></p>
+        <!-- Category -->
+        <p class="text-gray-700 text-xs mr-3"><i class="far fa-map block md:inline mr-1 text-teal-500"></i><span>Fusion</span></p>
+        <!-- Tag -->
+        <p class="text-gray-700 text-xs mr-3"><i class="fas fa-tags block md:inline mr-1 text-teal-500"></i><span>Halal Certified</span>, <span>Deals Available</span></p>
+      </div>
       <p class="text-gray-500 text-sm mb-3">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
