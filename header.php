@@ -42,8 +42,8 @@
           </li>
         </ul>
         <div class="account">
-            <a class="nav-link kbtn icon left border" href="#"><i class="fas fa-sign-in-alt"></i>Login</a>
-            <a class="nav-link kbtn icon solid left box-shadow" href="#"><i class="fas fa-user"></i>Sign Up</a>
+            <a class="nav-link kbtn icon left border" href="login.php"><i class="fas fa-sign-in-alt"></i>Login</a>
+            <a class="nav-link kbtn icon solid left box-shadow" href="signup.php"><i class="fas fa-user"></i>Sign Up</a>
         </div>
       </div>
     </div>
