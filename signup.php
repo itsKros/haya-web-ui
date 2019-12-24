@@ -4,7 +4,7 @@
 <div class="bg-white h-screen">
     <div class="flex flex-col items-center flex-1 h-full justify-center px-4 sm:px-0">
         <div class="flex rounded-lg box-shadow w-full sm:w-3/4 lg:w-4/5 bg-white sm:mx-0" style="height: 500px">
-            <div class="hidden md:block md:w-1/2 rounded-r-lg" style="background: url('https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); background-size: cover; background-position: center center;"></div>
+            <div class="hidden md:block md:w-1/2 rounded-l-lg" style="background: url('https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); background-size: cover; background-position: center center;"></div>
             <div class="flex flex-col w-full md:w-1/2 p-4">
                 <div class="flex flex-col flex-1 justify-center mb-8">
                     <h1 class="text-4xl text-center font-thin text-teal-500">Sign Up</h1>
