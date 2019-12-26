@@ -1,84 +1,44 @@
 <?php include('header.php') ?>
 
-<!--Hero section starts-->
-<section id="heroSec" class="in-grid pb-10">
-  <div class="container mx-auto flex flex-col justify-end w-full mx-auto h-screen">
-    <div class="herocaption sm:w-full md:w-2/5">
-      <h3 class="mb-4">Kintamani Indonesian Restaurant</h3>
-      <h4 class="mb-4">405 Havlock Road</h4>
-      <h5 class="mb-4"><span class="badge badge-pink kbadge ">Indonesian</span></h5>
+<!--Page title section starts-->
+<section id="pageTitleSec" class="in-grid py-10 md:py-24 bg-cover" style="background-image:url(https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg);">
+  <div class="container mx-auto flex flex-col justify-end w-full mx-auto" style="z-index: 1;position: relative;">
+    <h2 class="text-white text-2xl mb-1 font-semibold">Kintamani Indonesian Restaurant</h2>
+    <div class="flex flex-col flex-wrap mb-3">
+      <p class="text-xs text-white font-semibold mr-2">
+        <i class="far fa-clock font-semibold"></i>
+        <span>Opening Hours: </span>
+        <span class="font-normal">12:00 PM-02:00 PM - 05:00 PM-09:00 PM</span>
+      </p>
+
+      <p class="text-xs text-white font-semibold mr-2">
+        <i class="fas fa-utensils font-semibold"></i>
+        <span>Cuisines: </span>
+        <span class="font-normal">12:00 PM-02:00 PM - 05:00 PM-09:00 PM</span>
+      </p>
     </div>
-    <a href="#" class="kbtn solid icon right self-start mt-4">View All <i class="fas fa-arrow-right"></i></a>
+    <p class="text-white text-sm w-full md:w-4/6 mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur dolorum eveniet veritatis aperiam voluptate praesentium, illo aliquam. Sapiente molestiae harum aut rem ab, tenetur tempora, iure itaque expedita modi perspiciatis accusantium! Nam deserunt dolor perspiciatis adipisci accusamus obcaecati? Id, voluptas!</p>
+    <div class="btnGroup">
+      <a href="" class="bg-white hover:bg-grey justify-between md:w-4 text-teal-500 font-bold py-2 px-4 rounded-full  inline-flex items-center call">
+        <i class="fas fa-phone-alt"></i>
+        <span>Call</span>
+      </a>
+      <a href="" class="bg-white hover:bg-grey justify-between md:w-4 text-teal-500 font-bold py-2 px-4 rounded-full  inline-flex items-center direction">
+        <i class="fas fa-location-arrow"></i>
+        <span>Direction</span>
+      </a>
+    </div>
   </div>
 </section>
-<!--Hero section ends-->
-
-
-<!--Region section starts-->
-<section id="regionSec" class="bg-gray-100 py-20 md:py-32">
-  <div class="container mx-auto w-full content">
-      <div class="section-title text-center w-full mb-20 md:mb-32">
-        <h5 class="captiontitle">Welcome to Haya Lifestyle</h5>
-        <h2 class="title">More Affordable Meals,<br> More <span>Offers</span></h2>
-      </div>
-  </div>
-  <div class="container mx-auto flex flex-wrap flex-col md:flex-row w-5/6 content">
-
-    <div class="w-full md:w-2/5 mb-4 md:mx-2 flex flex-col md:flex-row flex-grow flex-shrink-0 box-shadow bg-white region-wrap">
-      <div class="w-full md:w-3/4 bg-cover bg-no-repeat img central" style="">
-        <img src="assets/imgs/central.jpg" class="invisible" alt="" srcset="">
-      </div>
-      <div class="content p-5">
-        <h3 class="text-lg mb-2">Central</h3>
-        <p class="text-gray-500 text-sm mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-        <a href="" class="kbtn transparent icon right  block w-1/4">Explore <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </div>
-
-    <div class="w-full md:w-2/5 mb-4 md:mx-2 flex flex-col md:flex-row flex-grow flex-shrink-0 box-shadow bg-white region-wrap">
-      <div class="w-full md:w-3/4 bg-cover bg-no-repeat img east" style="">
-        <img src="assets/imgs/east.jpg" class="invisible" alt="" srcset="">
-      </div>
-      <div class="content p-5">
-        <h3 class="text-lg mb-2">East</h3>
-        <p class="text-gray-500 text-sm mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-        <a href="" class="kbtn transparent icon right  block w-1/4">Explore <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </div>
-
-    <div class="w-full md:w-2/5 mb-4 md:mx-2 flex flex-col md:flex-row flex-grow flex-shrink-0 box-shadow bg-white region-wrap">
-      <div class="w-full md:w-3/4 bg-cover bg-no-repeat img west" style="">
-        <img src="assets/imgs/west.jpg" class="invisible" alt="" srcset="">
-      </div>
-      <div class="content p-5">
-        <h3 class="text-lg mb-2">West</h3>
-        <p class="text-gray-500 text-sm mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-        <a href="" class="kbtn transparent icon right  block w-1/4">Explore <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </div>
-
-    <div class="w-full md:w-2/5 mb-4 md:mx-2 flex flex-col md:flex-row flex-grow flex-shrink-0 box-shadow bg-white region-wrap">
-      <div class="w-full md:w-3/4 bg-cover bg-no-repeat img north" style="">
-        <img src="assets/imgs/north.jpg" class="invisible" alt="" srcset="">
-      </div>
-      <div class="content p-5">
-        <h3 class="text-lg mb-2">North</h3>
-        <p class="text-gray-500 text-sm mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-        <a href="" class="kbtn transparent icon right block w-1/4">Explore <i class="fas fa-arrow-right"></i></a>
-      </div>
-    </div>
-    
-  </div>
-</section>
-<!--Region section ends-->
+<!--Page Title section ends-->
 
 
 
-<!--Popular Places section starts-->
-<section id="popularPlacesSec" class="container mx-auto w-full md:w-5/6 bg-white py-20 md:py-32">
+<!--Offers section starts-->
+<section id="popularPlacesSec" class="container mx-auto w-full md:w-5/6 bg-white py-20 md:pt-10 md:pb-30">
   <div class="w-full content">
-    <h5 class="text-gray-800 text-3xl mb-3">Popular <span class="text-teal-500">Places</span></h5>
-    <p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <h5 class="text-gray-800 text-3xl mb-3 text-center w-full">Best <span class="text-teal-500">Deals</span></h5>
+    <p class="text-gray-600 mb-10 w-full text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </div>
 
   <!-- Single places starts -->
@@ -182,7 +142,6 @@
   <!-- Single places starts -->
 
 </section>
-
-<!--Popular Places section ends-->
+<!--Offers section ends-->
 
 <?php include('footer.php') ?>

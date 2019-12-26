@@ -5,7 +5,7 @@ body{font-family:'Poppins',sans-serif}
 :root{--primary:#2ca793}
 
 /*Helper Style*/
-.box-shadow{box-shadow:2px 2px 12px rgba(0,0,0,0.1)}
+    .box-shadow{box-shadow:2px 2px 12px rgba(0,0,0,0.1)}
     /*Button*/
     .kbtn{border-radius:45px;padding:8px 20px;font-size:14px;font-weight:500; }
     .kbtn.border{border:2px solid var(--primary)!important;color:var(--primary);background:#fff}
@@ -31,7 +31,7 @@ body{font-family:'Poppins',sans-serif}
     @media only screen and (max-width:767px){
         .section-title .captiontitle {margin-bottom: 11px; }
         .section-title .title {font-size: 30px;line-height: 47px;}
-        .container {       width: 90%  }
+        .container { width: 90% }
     }
 
 /*Header & Menu Style*/
@@ -40,11 +40,15 @@ body{font-family:'Poppins',sans-serif}
 a.navbar-brand{padding:0}
 a.navbar-brand img{height:70px}
 li.nav-item{margin:0 17px;position:relative}
-li.nav-item.active:after,li.nav-item:hover:after{width:100%;height:auto;top:60px;content:'';border-bottom:3.5px solid #2ca793;position:absolute}
+li.nav-item.active:after,li.nav-item:hover:after{width:100%;height:auto;top:58px;content:'';border-bottom:3.5px solid #2ca793;position:absolute;z-index:1}
 .navbar-light .navbar-nav .nav-link{color:#5e5e5e;font-weight:500;font-size:14px}
 .navbar .account{display:flex;width:225px;justify-content:space-between}
 @media only screen and (max-width:767px){
     li.nav-item.active:after,li.nav-item:hover:after{border:0}
+}
+
+.custom-label input:checked + svg {
+    display: block !important;
 }
 
 /*Hero Section*/
@@ -57,12 +61,9 @@ li.nav-item.active:after,li.nav-item:hover:after{width:100%;height:auto;top:60px
 #heroSec .hero .kbtn {display: inline-block;margin-top: 10px;}
 
 @media only screen and  (max-width:767px){
-    #heroSec .herocaption  {width: 82%;}
-    
+    #heroSec .herocaption  {width: 82%;}    
 }
 
-
-#regionSec .region-wrap {}
 
 #regionSec .region-wrap .img.central{background-image: url('../imgs/central.jpg');}
 #regionSec .region-wrap .img.east{background-image: url('../imgs/east.jpg');}
@@ -72,3 +73,17 @@ li.nav-item.active:after,li.nav-item:hover:after{width:100%;height:auto;top:60px
 #pageTitleSec {    position: relative;}
 #pageTitleSec::before {z-index:0;content:"";position:absolute;width:100%;height:100%; top:0; background: rgba(0,0,0,0.65);}
 
+#pageTitleSec a.call {
+    width: 90px;
+}
+
+#pageTitleSec a.direction {
+    width: 135px;
+}
+
+
+@media only screen and  (max-width:767px){
+    #filterBtn {
+        width: 15%;
+    } 
+}
