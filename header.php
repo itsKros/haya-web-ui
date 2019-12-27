@@ -41,6 +41,9 @@
             <a class="nav-link" href="#">Contact Us</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="places.php">Explore Places</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="my-account.php">My Account</a>
           </li>
         </ul>
