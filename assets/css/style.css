@@ -72,18 +72,28 @@ li.nav-item.active:after,li.nav-item:hover:after{width:100%;height:auto;top:58px
 
 #pageTitleSec {    position: relative;}
 #pageTitleSec::before {z-index:0;content:"";position:absolute;width:100%;height:100%; top:0; background: rgba(0,0,0,0.65);}
+#pageTitleSec a.call {width: 90px;}
+#pageTitleSec a.direction {width: 135px;}
 
-#pageTitleSec a.call {
-    width: 90px;
+#offersSec a.offer { transition: .25s; }
+
+#redeemSec .input {
+    transition: border 0.2s ease-in-out;
+    min-width: 280px
 }
-
-#pageTitleSec a.direction {
-    width: 135px;
+#redeemSec .input:focus+.label,
+#redeemSec .input:active+.label,
+#redeemSec .input.filled+.label {
+    font-size: .75rem;
+    transition: all 0.2s ease-out;
+    top: -0.1rem;
+    color: #667eea;
 }
-
-
+#redeemSec .label {
+    transition: all 0.2s ease-out;
+    top: 0.4rem;
+      left: 0;
+}
 @media only screen and  (max-width:767px){
-    #filterBtn {
-        width: 15%;
-    } 
+    #filterBtn {width: 15%;} 
 }

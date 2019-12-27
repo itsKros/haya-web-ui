@@ -24,8 +24,12 @@
                                 </button>
                             </div>
                         </form>
-                        <div class="text-center mt-4">
-                            <a class="no-underline hover:underline text-blue-dark text-xs" href="#">
+                        <div class="text-center mt-4 text-xs">
+                            Don't have an account? 
+                            <a class="no-underline hover:underline text-teal-500 text-xs" href="signup.php">Signup Now</a>
+                        </div>
+                        <div class="text-center mt-2">
+                            <a class="no-underline hover:underline text-blue-dark text-xs" href="forgot-password.php">
                                 Forgot Your Password?
                             </a>
                         </div>

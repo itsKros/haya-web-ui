@@ -33,10 +33,8 @@
                             </div>
                         </form>
                         <div class="text-center mt-4 text-xs">
-                        Already have an account? 
-                            <a class="no-underline hover:underline text-teal-500 text-xs" href="#">
-                                Sign In
-                            </a>
+                            Already have an account? 
+                            <a class="no-underline hover:underline text-teal-500 text-xs" href="login.php">Sign In</a>
                         </div>
                     </div>
                 </div>

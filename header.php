@@ -40,6 +40,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Contact Us</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="my-account.php">My Account</a>
+          </li>
         </ul>
         <div class="account">
             <a class="nav-link kbtn icon left border" href="login.php"><i class="fas fa-sign-in-alt"></i>Login</a>

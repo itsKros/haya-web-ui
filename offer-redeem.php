@@ -47,48 +47,37 @@
 
 
 
-<!--Offers section starts-->
-<section id="offersSec" class="container mx-auto w-full md:w-5/6 bg-white py-20 md:pt-10 md:pb-30">
-  <div class="w-full content">
-    <h5 class="text-gray-800 text-3xl mb-3 text-center w-full">Best <span class="text-teal-500">Deals</span></h5>
-    <p class="text-gray-600 mb-10 w-full text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  </div>
+<!--Redeem section starts-->
+<section id="redeemSec" class="container mx-auto w-full md:w-5/6 bg-white py-20 md:pt-10 md:pb-30">
+    
 
-  <!-- Single Offers starts -->
-  <a href="offer-redeem.php" class="w-full flex mb-4 hover:shadow-md rounded-lg border border-gray-200 offer content">
-    <div class="w-1/2 md:w-1/12 flex items-center p-2 img ">
-      <img src="assets/imgs/offers/ic_launcher.png" class="w-full" alt="" srcset="">
+    <div class="block flex flex-col bg-white box-shadow rounded-lg w-full md:w-5/6 p-6 mx-auto">
+        <div class="w-full content mb-10 ">
+            <h5 class="text-gray-800 text-3xl mb-3 w-full"><span class="text-teal-500">50% off buffet lunch or dinner</span></h5>
+            <p class="text-gray-600 mb-3 w-full ">
+                T&C: Valid for dine in only. Not valid on 11 & 12 May, 15 & 16 June, 24, 25 & 31 December 2019.
+                Not valid in conjuction with other discount, promotion or deals.
+            </p>
+            <p class="text-teal-500 font-medium text-base ">
+                Valid Till: 31/12/2019
+            </p>
+        </div>
+        <form class="w-full">
+            <div class="mb-4">
+                <label for="customer_code" class="block mb-2 text-sm text-gray-800">Enter Customer's Code</label>
+                <input type="text" name="customer_code" id="customer_code" class="focus:border-blue-500 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none" autocomplete="email" required>
+            </div>
+            <div class="mb-4">
+                <label for="vendor_code" class="block mb-2 text-sm text-gray-800">Enter Vendor's Code</label>
+                <input type="text" name="vendor_code" id="vendor_code" class="focus:border-blue-500 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none" autocomplete="email" required>
+            </div>
+            
+            <div class="block md:flex items-center justify-between">
+                <button type="submit" class="align-middle bg-teal-500 hover:bg-teal-600 text-center px-4 py-2 text-white text-sm font-semibold rounded-lg inline-block shadow-lg">REDEEM</button>
+            </div>
+        </form>
     </div>
-    <div class="w-1/2 h-auto md:w-11/12 py-5 px-2">
-      <h3 class="text-lg mb-1">50% off buffet lunch or dinner</h3>
-      <p class="text-gray-500 text-xs mb-2">
-        T&C: Valid for dine in only. Not valid on 11 & 12 May, 15 & 16 June, 24, 25 & 31 December 2019.
-        Not valid in conjuction with other discount, promotion or deals.
-      </p>
-      <p class="text-teal-500 font-medium text-sm ">
-        Valid Till: 31/12/2019
-      </p>
-    </div>
-  </a>
-  <!-- Single Offers ends -->
-
-  <!-- Single Offers starts -->
-  <a href="offer-redeem.php" class="w-full flex mb-4 hover:shadow-md rounded-lg border offer content">
-    <div class="w-1/2 md:w-1/12 flex items-center p-2 img ">
-      <img src="assets/imgs/offers/ic_launcher.png" class="w-full" alt="" srcset="">
-    </div>
-    <div class="w-1/2 h-auto md:w-11/12 py-5 px-2">
-      <h3 class="text-lg mb-1">Every 2 paying adults, 1 kid dines for free.</h3>
-      <p class="text-gray-500 text-xs mb-2">
-        T&C: Valid for dine in only. Not valid on 11 & 12 May, 15 & 16 June, 24, 25 & 31 December 2019.
-        Not valid in conjuction with other discount, promotion or deals.
-      </p>
-      <p class="text-teal-500 font-medium text-sm ">
-        Valid Till: 31/12/2019
-      </p>
-    </div>
-  </a>
-  <!-- Single Offers ends -->
+    
 
 </section>
 <!--Offers section ends-->
